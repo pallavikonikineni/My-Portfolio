@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallavi Konikineni - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">PK</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#experience" class="nav-link" data-section="experience">Work Experience</a>
+                <a href="#badges" class="nav-link" data-section="badges">Badges</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="shimmer-text">Pallavi Konikineni</span>
+                        </h1>
+                        <p class="hero-subtitle">CSE-(AI&ML) Student</p>
+                        <div class="hero-description">
+                            <p>Passionate about Artificial Intelligence and Machine Learning, crafting innovative solutions for tomorrow's challenges.</p>
+                        </div>
+                        <div class="hero-cta">
+                            <div class="social-links">
+                                <a href="https://github.com/pallavikonikineni" target="_blank" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/pallavi-konikineni-210105267/" target="_blank" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://drive.google.com/file/d/1P46rr1dy084w0fJvk7H90S7gP2dgDEbj/view?usp=drive_link" target="_blank" class="social-link">
+                                    <i class="fas fa-file-pdf"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="floating-card">
+                            <div class="card-content">
+                                <i class="fas fa-robot"></i>
+                                <span>AI & ML</span>
+                            </div>
+                        </div>
+                        <div class="floating-card" style="animation-delay: 0.5s;">
+                            <div class="card-content">
+                                <i class="fas fa-code"></i>
+                                <span>Development</span>
+                            </div>
+                        </div>
+                        <div class="floating-card" style="animation-delay: 1s;">
+                            <div class="card-content">
+                                <i class="fas fa-brain"></i>
+                                <span>Innovation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Passionate learner and technology enthusiast</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a dedicated Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. My journey in technology is driven by curiosity and a passion for creating intelligent solutions that can make a real difference.</p>
+                        <p>Currently pursuing my degree, I focus on understanding the intricacies of AI algorithms, machine learning models, and their practical applications. I believe in continuous learning and staying updated with the latest technological advancements.</p>
+                        <p>Through various <a href="https://github.com/pallavikonikineni" target="_blank" class="inline-link">projects</a> and hands-on experience with cutting-edge <a href="#skills" class="inline-link">technologies</a>, I aim to contribute meaningfully to the field of artificial intelligence and create solutions that benefit society.</p>
+                        <div class="hobbies-section">
+                            <h4 class="hobbies-title">Hobbies & Interests</h4>
+                            <div class="hobbies-list">
+                                <span class="hobby-item"><i class="fas fa-palette"></i> Drawing</span>
+                                <span class="hobby-item"><i class="fas fa-brush"></i> Painting</span>
+                                <span class="hobby-item"><i class="fas fa-utensils"></i> Cooking</span>
+                                <span class="hobby-item"><i class="fas fa-film"></i> Watching Movies</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">My technical expertise and competencies</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-brain"></i>
+                            AI & Machine Learning
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Pandas</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">NumPy</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Random Forest Algorithm</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-database"></i>
+                            Database
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i>
+                            Development
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Bootstrap</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Spring Boot</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i>
+                            Others
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Streamlit</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Flask</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Pickle Module</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="section-subtitle">Professional credentials and achievements</p>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-female"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">AI for Women</h3>
+                            <p class="cert-issuer">HCL GUVI • March 2023</p>
+                            <p class="cert-description">Specialized training program focusing on artificial intelligence and empowering women in tech.</p>
+                            <a href="https://www.guvi.in/share-certificate/L7AF4397dl1193Ck65" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Artificial Intelligence Fundamentals</h3>
+                            <p class="cert-issuer">IBM • August 2024</p>
+                            <p class="cert-description">Foundational knowledge in artificial intelligence concepts and applications.</p>
+                            <a href="https://www.credly.com/earner/earned/badge/f6764eb5-d007-4dda-925a-f60de37adefd" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">MePro Certification</h3>
+                            <p class="cert-issuer">Pearson • February 2024</p>
+                            <p class="cert-description">Professional development and project management skills certification.</p>
+                            <a href="https://www.credly.com/badges/b533c912-7cd7-4adc-bbeb-89bb978e1148/linked_in_profile" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Python Essentials 1</h3>
+                            <p class="cert-issuer">Cisco • February 2025</p>
+                            <p class="cert-description">Fundamental Python programming concepts and syntax.</p>
+                            <a href="https://www.credly.com/badges/7c8f7fb0-6659-4f0f-9fa2-9f9028263884/linked_in_profile" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Python Essentials 2</h3>
+                            <p class="cert-issuer">Cisco • February 2025</p>
+                            <p class="cert-description">Advanced Python programming including OOP and data structures.</p>
+                            <a href="https://www.credly.com/badges/8642ba78-3e89-423a-be9d-04c5e850835d/linked_in_profile" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">SQL Certification</h3>
+                            <p class="cert-issuer">HackerRank • March 2025</p>
+                            <p class="cert-description">Advanced SQL skills including complex queries and database management.</p>
+                            <a href="https://www.hackerrank.com/certificates/8d5933905253" target="_blank" class="cert-link">
+                                View Credential <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Showcasing my technical projects and innovations</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Diabetes Prediction using ML</h3>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">NumPy</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Pickle Module</span>
+                                <span class="tech-tag">Random Forest</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p>Developed a machine learning model to predict diabetes using patient health data. Built a web interface using Flask for easy access and real-time predictions.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/pallavikonikineni" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Personal Portfolio</h3>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">Animations</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p>Created a responsive and animated personal portfolio website showcasing projects, skills, and professional experience with modern web technologies.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/pallavikonikineni" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Work Experience</h2>
+                    <p class="section-subtitle">Professional journey and contributions</p>
+                </div>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Web Developer Intern</h3>
+                                <p class="experience-company">Bharath Intern</p>
+                                <span class="experience-duration">2024</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>Developed web applications and gained hands-on experience in frontend development technologies and frameworks.</p>
+                                <ul class="experience-highlights">
+                                    <li>Created a portfolio using HTML, CSS, JavaScript, React, and Bootstrap</li>
+                                    <li>Developed a weather forecasting app using the same technology stack</li>
+                                    <li>Enhanced skills in responsive design and user interface development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Python Developer Intern</h3>
+                                <p class="experience-company">CodSoft</p>
+                                <span class="experience-duration">2024</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>Focused on Python programming and application development, building practical solutions and strengthening programming fundamentals.</p>
+                                <ul class="experience-highlights">
+                                    <li>Developed a simple mathematical calculator using Python</li>
+                                    <li>Created a robust password generator with security features</li>
+                                    <li>Built a to-do-list application with full CRUD functionality</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Badges Section -->
+        <section id="badges" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Badges</h2>
+                    <p class="section-subtitle">Digital credentials and achievements</p>
+                </div>
+                <div class="badges-grid">
+                    <div class="badge-card">
+                        <div class="badge-icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="badge-content">
+                            <h3 class="badge-title">Google Solution Challenge Badge</h3>
+                            <p class="badge-issuer">Google</p>
+                            <p class="badge-description">Received for participating in the Google Solution Challenge, demonstrating innovation and problem-solving skills in technology.</p>
+                            <div class="badge-skills">
+                                <span class="skill-badge">Innovation</span>
+                                <span class="skill-badge">Problem Solving</span>
+                                <span class="skill-badge">Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badge-card">
+                        <div class="badge-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="badge-content">
+                            <h3 class="badge-title">Python 3-Star Badge</h3>
+                            <p class="badge-issuer">HackerRank</p>
+                            <p class="badge-description">Achieved 3-star rating in Python programming on HackerRank, demonstrating proficiency in algorithmic problem solving.</p>
+                            <div class="badge-skills">
+                                <span class="skill-badge">Python</span>
+                                <span class="skill-badge">Algorithms</span>
+                                <span class="skill-badge">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badge-card">
+                        <div class="badge-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="badge-content">
+                            <h3 class="badge-title">Google Data Analytics Professional Certificate</h3>
+                            <p class="badge-issuer">Coursera</p>
+                            <p class="badge-description">Comprehensive certification in data analytics, covering data collection, processing, analysis, and visualization using industry-standard tools.</p>
+                            <div class="badge-skills">
+                                <span class="skill-badge">Data Analysis</span>
+                                <span class="skill-badge">SQL</span>
+                                <span class="skill-badge">Tableau</span>
+                                <span class="skill-badge">R Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Pallavi Konikineni. All rights reserved.</p>
+                    <p>Built with passion and dedication to technology.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/pallavikonikineni" target="_blank" class="footer-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pallavi-konikineni-210105267/" target="_blank" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="footer-email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://x.com/PKonikineni" target="_blank" class="footer-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
